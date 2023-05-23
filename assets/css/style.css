@@ -447,6 +447,7 @@ section .container {
   width: 100%;
   position: relative;
   text-align: center;
+  border-radius: 10px;
   background: rgba(255, 255, 255, 0.08);
 }
 
@@ -521,7 +522,8 @@ section .container {
   align-items: center;
   padding: 20px;
   background: rgba(255, 255, 255, 0.08);
-  transition: ease-in-out 0.3s;
+  border-radius: 10px;
+  transition: background 0.5s, transform 0.5s;
 }
 
 .interests .icon-box i {
@@ -539,8 +541,9 @@ section .container {
   color: #fff;
 }
 
-.interests .icon-box:hover {
-  background: rgba(255, 255, 255, 0.12);
+.interests .icon-box:hover{
+  background: gray;
+  transform: translateY(-10px);
 }
 
 /*--------------------------------------------------------------
@@ -1001,8 +1004,9 @@ section .container {
 .contact .info-box {
   color: #444444;
   padding: 20px;
-  width: 95%;
+  width: 100%;
   background: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
 }
 
 .contact .info-box i.bx {
